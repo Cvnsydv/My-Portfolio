@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right,  #97978d, #cc5d5d44, #cdcec744);
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+   header {
+    background: rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(6, 49, 10, 0.5);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+    background: linear-gradient(to right, #c5132b, #121f18);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  main {
+    padding-top: 120px;
+    padding: 40px 20px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: start;
+  }
+  
+  section {
+    margin-top: 90px;
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(6, 49, 10, 0.5);
+    
+  }
+  
+  section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 48px 0 rgb(121, 57, 57);
+  }
+  
+  h2 {
+    text-align: center;
+    background: linear-gradient(to right, #ff6ec4, #7873f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00fff7;
+    box-shadow: 0 0 20px #00fff7, 0 0 40px #00fff7aa;
+    margin: 20px auto;
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: black;
+    background: rgba(155, 124, 124, 0.233);
+    border: 1px solid rgba(91, 55, 100, 0.5);
+    backdrop-filter: blur(10px);
+    margin-top: 50px;
+
+  } 
+  /* #about {
+    color: red;
+  } */
